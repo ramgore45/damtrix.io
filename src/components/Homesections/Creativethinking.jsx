@@ -24,7 +24,7 @@ export const Creativethinking = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </Description>
-                <button className='w-fit p-3 px-8 text-violet-100 font-bold  rounded-full text-center bg-gradient-to-r from-green-600 to-violet-600 transition-colors ease-in-out duration-500
+                <button className='w-fit p-3 px-8 text-violet-100 font-bold  rounded-full text-center bg-gradient-to-r from-green-600 to-violet-600
                     hover:bg-gradient-to-l transition ease-in-out duration-500
                 '>
                     Explore Now

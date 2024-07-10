@@ -80,7 +80,7 @@ export const Footer = () => {
                         contactDetailList.map((item)=>(
                             <p className='flex gap-x-2'>
                                 <Icon>{item.iconName}</Icon>
-                                <span className='text-[10px] sm:text-[16px] self-center'><SingleListItem text={item.text}/></span>
+                                <span className='text-[9px] sm:text-[16px] self-center'><SingleListItem text={item.text}/></span>
                             </p>
                         ))
                     }

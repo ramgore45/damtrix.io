@@ -14,7 +14,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Home = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black '>
         <div>
             <Creativethinking/>
         </div>

@@ -11,7 +11,7 @@ function App() {
   return (
     <div className=" bg-black text-white h-fit w-screen ">
       {/* dmatrix.com */}
-      <div className='fixed top-0 w-screen md:w-full  bg-black w-full z-20'>
+      <div className='fixed top-0 w-screen md:w-full  bg-black z-20'>
         <Navbar/>
       </div>
       
