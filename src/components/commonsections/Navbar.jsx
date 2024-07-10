@@ -19,7 +19,7 @@ export const Navbar = () => {
 
   return (
     <div className='h-fit font-medium'>
-        <div className='h-full flex justify-between p-4 md:px-10 lg:px-24 content-center'>
+        <div className='h-full flex justify-between p-2 sm:p-4 md:px-10 lg:px-24 content-center'>
             {/* company icon */}
             <NavLink to='/'>
                 <Companylogo/>
@@ -27,7 +27,7 @@ export const Navbar = () => {
             
 
             {/* pages section */}
-            <div className='flex gap-x-3 self-center'>
+            <div className='flex gap-x-2 sm:gap-x-4 self-center'>
                     <div className='cursor-pointer group'>
                         <NavLink to={`/`}>
                             <p className={`${matchroute('/')? 'text-green-400':''} texthover flex `}>

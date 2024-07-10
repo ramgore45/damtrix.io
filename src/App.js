@@ -19,11 +19,11 @@ function App() {
   return (
     <div className=" bg-black text-white h-fit w-screen ">
       {/* dmatrix.com */}
-      <div className='fixed top-0 w-screen md:w-full  bg-black z-20'>
+      <div className='fixed top-0 w-screen  bg-black z-20'>
         <Navbar/>
       </div>
       
-      <div className='relative pt-24 z-10 w-screen md:w-fit right-0 left-0 bg-black'>
+      <div className='relative pt-24 z-10 w-screen  right-0 left-0 bg-black'>
         
         {
           <Routes>

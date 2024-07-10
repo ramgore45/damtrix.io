@@ -33,7 +33,7 @@ export const Creativethinking = () => {
             </div>
 
             {/* right side */}
-            <div className='lg:w-[50%] flex gap-x-5 self-center relative lg:left-20 sm:left-36 top-14'>
+            <div className='lg:w-[50%] flex gap-x-5 self-center relative lg:left-20 sm:left-24 top-14'>
 
                 <div className='lg:h-[450px] lg:w-[350px] 
                                 sm:h-[380px] sm:w-[280px] 
