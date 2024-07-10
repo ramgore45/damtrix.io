@@ -3,7 +3,6 @@ import { GetInTouch } from '../components/commonsections/GetInTouch'
 import { Latestblogs } from '../components/commonsections/Latestblogs'
 import { Footer } from '../components/commonsections/footer/Footer'
 import { Navigation } from '../components/box/Navigation'
-import ScrollAnimation from 'react-animate-on-scroll'
 
 export const ContactUs = () => {
 
@@ -14,24 +13,18 @@ export const ContactUs = () => {
         <div>
             <Navigation page={"Contact Us"} />
         </div>
-
-        <ScrollAnimation animateIn="fadeIn " >    
-            <div>
-                <GetInTouch/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Latestblogs/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Footer/>
-            </div>
-        </ScrollAnimation>
+        
+        <div>
+            <GetInTouch/>
+        </div>
+    
+        <div>
+            <Latestblogs/>
+        </div>
+    
+        <div>
+            <Footer/>
+        </div>
         
     </div>
   )

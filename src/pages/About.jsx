@@ -4,7 +4,6 @@ import { Testimonials } from '../components/commonsections/Testimonials'
 import { GetInTouch } from '../components/commonsections/GetInTouch'
 import { Footer } from '../components/commonsections/footer/Footer'
 import { Navigation } from '../components/box/Navigation'
-import ScrollAnimation from 'react-animate-on-scroll'
 
 export const About = () => {
   return (
@@ -18,26 +17,17 @@ export const About = () => {
           <AboutusSection/>
         </div>
 
-        <ScrollAnimation animateIn="fadeIn " >
-          <div>
-            <Testimonials/>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-          <div>
-            <GetInTouch/>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-          <div>
-            <Footer/>
-          </div>
-        </ScrollAnimation>
-
-        
-
+        <div>
+          <Testimonials/>
+        </div>
+        <div>
+          <GetInTouch/>
+        </div>
+      
+        <div>
+          <Footer/>
+        </div>
+       
     </div>
   )
 }

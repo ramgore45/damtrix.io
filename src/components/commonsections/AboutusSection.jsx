@@ -4,23 +4,19 @@ import { Subheading } from '../basicscommon/Subheading'
 import { Description } from '../basicscommon/Description'
 import { Btn } from '../basicscommon/Btn'
 import { AnimationImages } from '../box/AnimationImages'
-import ScrollAnimation from 'react-animate-on-scroll'
 
 export const AboutusSection = () => {
   return (
     <div>
         <div className='text-black bg-white flex lg:justify-between p-14 sm:p-24 gap-x-6 flex-col lg:flex-row justify-center '>
             
-            <div className='lg:w-[50%] w-[100%] sm:w-[90%] self-center'>
-                <ScrollAnimation animateIn='fadeIn' duration='2'>
+            <div className='lg:w-[50%] w-[100%] sm:w-[90%] self-center' data-aos="fade-up">
                     <AnimationImages/>
-                </ScrollAnimation>
             </div>
             
             
 
-            <div className='lg:w-[50%] w-full self-center'>
-                <ScrollAnimation animateIn='fadeIn' duration="2">
+            <div className='lg:w-[50%] w-full self-center' data-aos="fade-up">
                     <div className='flex flex-col gap-y-8 '>
                         {/* <img>dots Image Transaparent Absolute position</img> */}
                         <Mainheading Maintext={"About Us"}/>
@@ -35,7 +31,6 @@ export const AboutusSection = () => {
                         </div>
                         
                     </div>
-                </ScrollAnimation>
             </div>
         </div>
     </div>

@@ -27,7 +27,7 @@ export const Howwework = () => {
   return (
     <div>
       <div>
-        <div className='flex flex-col text-center justify-center gap-y-8 bg-gradient-to-r from-green-100 to-gray-50 p-14 sm:p-24 text-black'>
+        <div className='flex flex-col text-center justify-center gap-y-8 bg-gradient-to-r from-green-100 to-gray-50 p-14 sm:p-24 text-black' data-aos="fade-up">
             <div className='self-center'>
                 <Mainheading Maintext={"How We Work"}/>
             </div>

@@ -6,8 +6,16 @@ import { ContactUs } from './pages/ContactUs';
 import './App.css';
 import "animate.css/animate.compat.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[1])
+
   return (
     <div className=" bg-black text-white h-fit w-screen ">
       {/* dmatrix.com */}

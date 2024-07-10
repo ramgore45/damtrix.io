@@ -8,7 +8,7 @@ import { PortfolioNav } from '../basicscommon/PortfolioNav'
 export const Portfolio = () => {
   return (
     <div>
-      <div className='flex flex-col gap-y-8 p-14 sm:p-24 h-fit'>
+      <div className='flex flex-col gap-y-8 p-14 sm:p-24 h-fit'  data-aos="fade-up">
 
         <div >
           <Mainheading Maintext={"Portfolio"}/>

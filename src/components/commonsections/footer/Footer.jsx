@@ -35,7 +35,7 @@ const contactDetailList = [
 
 export const Footer = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black' data-aos="fade-up">
         <div className='flex flex-wrap lg:flex-nowwrap justify-evenly lg:p-10 gap-y-8 p-10 sm:p-24'>
             {/* first section */}
             <div className='lg:w-[20%] w-[40%]'>

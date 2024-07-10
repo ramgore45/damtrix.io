@@ -10,12 +10,12 @@ import { FAQ } from '../components/Homesections/FAQ'
 import { Portfolio } from '../components/Homesections/Portfolio'
 import { Footer } from '../components/commonsections/footer/Footer'
 import { ReachofWebsites } from '../components/Homesections/ReachofWebsites'
-import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Home = () => {
   return (
     <div className='bg-black '>
-        <div>
+
+        <div >
             <Creativethinking/>
         </div>
 
@@ -23,60 +23,41 @@ export const Home = () => {
             <AboutusSection/>
         </div>
         
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <ReachofWebsites/>
-            </div>
-        </ScrollAnimation>
-        
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Ourservices/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Testimonials/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Howwework/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Portfolio/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <FAQ/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Latestblogs/>
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <GetInTouch/> 
-            </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeIn " >
-            <div>
-                <Footer/>
-            </div>
-        </ScrollAnimation>
-
+        <div >
+            <ReachofWebsites/>
+        </div>
+    
+        <div>
+            <Ourservices/>
+        </div>
+    
+        <div >
+            <Testimonials/>
+        </div>
+    
+        <div >
+            <Howwework/>
+        </div>
+    
+        <div>
+            <Portfolio/>
+        </div>
+    
+        <div>
+            <FAQ/>
+        </div>
+    
+        <div >
+            <Latestblogs/>
+        </div>
+    
+        <div>
+            <GetInTouch/> 
+        </div>
+    
+        <div >
+            <Footer/>
+        </div>
         
     </div>
   )

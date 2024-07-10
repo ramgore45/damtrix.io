@@ -17,7 +17,7 @@ const blogHeadings = [
 
 export const Latestblogs = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full' data-aos="fade-up">
       <div className='flex flex-col text-center justify-center gap-y-8 bg-gradient-to-r from-indigo-100 to-blue-50 p-14 sm:p-24 text-black'>
 
         <div className='self-center'>

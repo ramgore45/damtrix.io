@@ -20,7 +20,7 @@ const testimonyData = [
 export const Testimonials = () => {
   return (
     <div>
-        <div className='bg-gradient-to-r from-pink-50 to-gray-50 flex flex-col justify-center '>
+        <div className='bg-gradient-to-r from-pink-50 to-gray-50 flex flex-col justify-center ' data-aos="fade-up">
             {/* first Top section */}
             <div className='flex lg:justify-between p-14 sm:p-24 flex-col lg:flex-row gap-y-8'>
 
