@@ -1,6 +1,5 @@
 import React from 'react'
 import { Description } from '../basicscommon/Description'
-import { AiOutlineAntDesign } from 'react-icons/ai'
 
 export const Service = ({title,iconName}) => {
   return (

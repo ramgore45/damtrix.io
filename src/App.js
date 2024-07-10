@@ -14,7 +14,7 @@ function App() {
 
   useEffect(()=>{
     Aos.init({duration:2000})
-  },[1])
+  },[ ])
 
   return (
     <div className=" bg-black text-white h-fit w-screen ">

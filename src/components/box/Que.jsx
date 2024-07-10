@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { FaRegArrowAltCircleDown } from 'react-icons/fa'
-import { FaCircleArrowDown } from 'react-icons/fa6'
 import { IoMdArrowRoundDown } from 'react-icons/io'
 
 export const Que = ({question}) => {

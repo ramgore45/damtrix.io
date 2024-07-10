@@ -1,7 +1,7 @@
 import React from 'react'
 import { Companylogo } from '../../basicscommon/Companylogo'
 import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter } from 'react-icons/ti'
-import { SlCalender, SlSocialInstagram } from 'react-icons/sl'
+import { SlSocialInstagram } from 'react-icons/sl'
 import { MdPhoneInTalk } from 'react-icons/md'
 import { FiMail } from 'react-icons/fi'
 import { TbWorld } from 'react-icons/tb'

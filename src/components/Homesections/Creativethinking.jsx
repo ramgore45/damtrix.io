@@ -1,8 +1,6 @@
 import React from 'react'
 import { Mainheading } from '../basicscommon/Mainheading'
 import { Description } from '../basicscommon/Description'
-import { Btn } from '../basicscommon/Btn'
-import { AiOutlineAntDesign } from 'react-icons/ai'
 import { PiMouseLeftClickDuotone } from 'react-icons/pi'
 
 export const Creativethinking = () => {

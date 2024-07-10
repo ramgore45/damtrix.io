@@ -1,7 +1,6 @@
 import React from 'react'
 import { Mainheading } from '../basicscommon/Mainheading'
 import { Subheading } from '../basicscommon/Subheading'
-import { Description } from '../basicscommon/Description'
 import { PortfolioWork } from '../box/PortfolioWork'
 import { PortfolioNav } from '../basicscommon/PortfolioNav'
 
