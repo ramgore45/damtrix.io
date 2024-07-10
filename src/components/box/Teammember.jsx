@@ -7,8 +7,8 @@ export const Teammember = ({name,designation}) => {
     <div >
         <div className='h-fit w-[250px] lg:w-fit  relative flex justify-center content-center group'>
             <div className='h-fit  rounded-xl relative z-10'>
-                <img className='h-[300px] w-[250px] md:h-80 md:w-100  rounded-xl group-hover:scale-105 transition duration-500 ease-in-out'
-                    src='https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg'
+                <img className='h-[300px] md:h-80  rounded-xl group-hover:scale-105 transition duration-500 ease-in-out'
+                    src='https://lh4.googleusercontent.com/proxy/ZbC8BBfG0fiPuCCxkeSVTYwRgPTv483FUsy4MvI0iNW0_gv9RrHl1wnMOEnLuNBPvSWRY5eFRhzs2Y1rqSMjjX0yUk1I6qy6PHAiTAOT7mFmN-70wfY'
                 />
             </div>
             <div className='text-white h-48 lg:h-60 w-48 lg:w-60 flex rounded-full bg-violet-500 bg-opacity-60 absolute lg:top-10 top-14 z-0 scale-0
