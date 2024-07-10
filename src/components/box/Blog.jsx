@@ -2,7 +2,7 @@ import React from 'react'
 import { Btn } from '../basicscommon/Btn'
 import { Screencsseffect } from '../basicscommon/Screencsseffect'
 
-export const Blog = () => {
+export const Blog = ({heading}) => {
   return (
     <div>
         <div className='flex flex-col justify-center group'>
@@ -20,7 +20,7 @@ export const Blog = () => {
                 </div>
 
                 <div className='flex text-xl text-start font-bold hover:text-green-400 transition ease-in-out duration-500'>
-                    This Place Really Place For Awesome Moment
+                    {heading}
                 </div>
                 
                 <div className='text-start text-gray-400'>

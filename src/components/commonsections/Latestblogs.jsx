@@ -3,6 +3,17 @@ import { Mainheading } from '../basicscommon/Mainheading'
 import { Subheading } from '../basicscommon/Subheading'
 import { Description } from '../basicscommon/Description'
 import { Blog } from '../box/Blog'
+const blogHeadings = [
+  {
+    heading:"Simple Proctives that will help you get better every...",
+  },
+  {
+    heading:"This Place Really Place For Awesome Moment",
+  },
+  {
+    heading:"Frigilla leactus honcus anteom mode vehicul",
+  },
+]
 
 export const Latestblogs = () => {
   return (
@@ -27,9 +38,11 @@ export const Latestblogs = () => {
         
         {/* Blog Posts */}
         <div className='flex gap-x-7 gap-y-7 lg:flex-row lg:flex-nowrap flex-wrap'>
-          <Blog/>
-          <Blog/>
-          <Blog/>
+          {
+            blogHeadings.map((item)=>(
+              <Blog heading={item.heading}/>
+            ))
+          }
         </div>
       </div>
     </div>

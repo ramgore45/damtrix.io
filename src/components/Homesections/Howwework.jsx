@@ -4,6 +4,24 @@ import { Subheading } from '../basicscommon/Subheading'
 import { Description } from '../basicscommon/Description'
 import { Btn } from '../basicscommon/Btn'
 import { Teammember } from '../box/Teammember'
+const teamData = [
+  {
+    name:"John Doey",
+    designation:"Co-Founder",
+  },
+  {
+    name:"James Bond",
+    designation:"Web Developer",
+  },
+  {
+    name:"Jacky Chan",
+    designation:"Web Design",
+  },
+  {
+    name:"Tom Mathew",
+    designation:"CEO",
+  },
+]
 
 export const Howwework = () => {
   return (
@@ -27,21 +45,13 @@ export const Howwework = () => {
             </div>
 
             <div className='flex gap-x-8 flex-wrap lg:flex-nowrap justify-center gap-y-8'>
-              <div >
-                <Teammember/>
-              </div>
-              
-              <div>
-                <Teammember/>
-              </div>
-
-              <div>
-                <Teammember/>
-              </div>
-
-              <div>
-                <Teammember/>
-              </div>
+                {
+                  teamData.map((item)=>(
+                    <div key={item.index}>
+                      <Teammember name={item.name} designation={item.designation}/>
+                    </div>
+                  ))
+                }
             </div>
 
             <div className='w-fit self-center'>

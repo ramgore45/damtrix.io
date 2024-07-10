@@ -14,6 +14,25 @@ const serviceList = [
     {title:"Logo design",},{title:"Web Design",},{title:"Branding & Art",},{title:"Digital Marketing",},{title:"Design & Development",},
 ]
 
+const contactDetailList = [
+    {
+        iconName:<MdPhoneInTalk className='self-center w-full h-full'/> ,
+        text:"+00-123-456-789",
+    },
+    {
+        iconName:<FiMail className='self-center w-full h-full'/> ,
+        text:"mail@webency.com",
+    },
+    {
+        iconName:<TbWorld className='self-center w-full h-full'/> ,
+        text:"www.webency.com",
+    },
+    {
+        iconName:<FaLocationDot className='self-center w-full h-full'/> ,
+        text:"225 Marion Street, Columbia",
+    },
+]
+
 export const Footer = () => {
   return (
     <div className='bg-black'>
@@ -57,22 +76,14 @@ export const Footer = () => {
                 <p className='text-xl sm:text-2xl font-semibold mb-5'>Get In Touch</p>
                 {/* contact details */}
                 <div className='font-medium gap-y-2 flex flex-col'>
-                    <p className='flex gap-x-2'>
-                        <Icon><MdPhoneInTalk className='self-center w-full h-full'/> </Icon>
-                        <span className='text-[10px] sm:text-[16px] self-center'><SingleListItem text={"+00-123-456-789"}/></span>
-                    </p>
-                    <p className='flex gap-x-1 sm:gap-x-2'>
-                        <Icon><FiMail className='self-center w-full h-full'/> </Icon>
-                        <span className='text-[10px] sm:text-[16px] self-center'><SingleListItem text={"mail@webency.com"}/></span>
-                    </p>
-                    <p className='flex gap-x-2'>
-                        <Icon><TbWorld className='self-center w-full h-full'/> </Icon>
-                        <span className='text-[10px] sm:text-[16px] self-center'><SingleListItem text={"www.webency.com"}/></span>
-                    </p>
-                    <p className='flex gap-x-2'>
-                        <Icon><FaLocationDot className='self-center w-full h-full'/> </Icon>
-                        <span className='text-[10px] sm:text-[16px] self-center'><SingleListItem text={"225 Marion Street, Columbia"}/></span>
-                    </p>
+                    {
+                        contactDetailList.map((item)=>(
+                            <p className='flex gap-x-2'>
+                                <Icon>{item.iconName}</Icon>
+                                <span className='text-[10px] sm:text-[16px] self-center'><SingleListItem text={item.text}/></span>
+                            </p>
+                        ))
+                    }
                 </div>
             </div>
         </div>

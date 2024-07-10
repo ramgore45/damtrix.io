@@ -5,6 +5,18 @@ import { Subheading } from '../basicscommon/Subheading'
 import { Testimony } from '../box/Testimony'
 import { Carousel } from 'react-responsive-carousel'
 
+const testimonyData = [
+    {
+        name:"John Doey",
+    },
+    {
+        name:"James Bond",
+    },
+    {
+        name:"Mc Namara",
+    },
+]
+
 export const Testimonials = () => {
   return (
     <div>
@@ -28,14 +40,14 @@ export const Testimonials = () => {
             </div>
                 
             {/* Second slider section */}
-            <div className='p-10 sm:px-24 flex pb-14 sm:pb-28 w-[90vw] sm:w-[95vw] w-[500px] sm:justify-center p-auto mx-auto'>
-                <Carousel className='md:max-w-[800px] sm:w-full w-screen self-start sm:justify-center left-0'
+            <div className='p-10 sm:px-24 flex pb-14 sm:pb-28 w-[90vw] sm:w-[95vw]  sm:justify-center p-auto mx-auto'>
+                <Carousel className='md:max-w-[800px] w-full self-start sm:justify-center left-0'
                     autoPlay={true} infiniteLoop={true} stopOnHover={true}> 
-                        <Testimony name={"John Doey"}/>
-                    
-                        <Testimony name={"James Namara"}/>
-                    
-                        <Testimony name={"Mc Namara"}/>
+                        {
+                            testimonyData.map((item)=>(
+                                <Testimony key={item.index} name={item.name}/>
+                            ))
+                        }
                 </Carousel>
             </div>
         </div>

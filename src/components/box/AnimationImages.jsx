@@ -20,7 +20,7 @@ export const AnimationImages = () => {
 
             {/* second secction Large img */}
             <div className='flex justify-end '>
-                <div className=' relative lg:bottom-20 md:bottom-24 bottom-12 lg:right-8 border border-green-400 rounded-full p-2 sm:p-5 animation1'>
+                <div className=' relative lg:bottom-20 md:bottom-24 bottom-12 lg:right-8 border border-green-400 rounded-full p-2 sm:p-4 animation1'>
                     <img className='h-[150px] w-[150px] sm:h-[250px] sm:w-[250px] md:h-[300px] md:w-[300px] rounded-full'
                         src='https://t3.ftcdn.net/jpg/03/89/71/46/360_F_389714673_2h7cQh8hPJgcZIZ1u2LSlld8TcfwpPNi.jpg'
                     />

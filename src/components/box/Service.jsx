@@ -2,7 +2,7 @@ import React from 'react'
 import { Description } from '../basicscommon/Description'
 import { AiOutlineAntDesign } from 'react-icons/ai'
 
-export const Service = ({title}) => {
+export const Service = ({title,iconName}) => {
   return (
     <div>
         <div className='bg-gray-200 p-7 pt-16 flex flex-col gap-y-7 justify-center relative rounded-xl mt-10 group border 
@@ -10,7 +10,9 @@ export const Service = ({title}) => {
             <div className='h-20 w-20 mx-auto bg-black text-white rounded-full absolute top-[-35px] right-0 left-0 from-violet-400 to-green-400
                 group-hover:bg-gradient-to-r group-hover:transition-all'
             >
-                <AiOutlineAntDesign className='my-auto mx-auto h-full text-4xl group-hover:animate-spin'/>
+                <p className='flex h-full w-full text-4xl justify-center group-hover:animate-spin'>
+                    {iconName}
+                </p>            
             </div>
             <div className='text-xl font-bold'>
                 {title}

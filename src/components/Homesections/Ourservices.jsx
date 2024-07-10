@@ -4,6 +4,29 @@ import { Subheading } from '../basicscommon/Subheading'
 import { Description } from '../basicscommon/Description'
 import { Service } from '../box/Service'
 import { Btn } from '../basicscommon/Btn'
+import { AiOutlineAntDesign } from 'react-icons/ai'
+import { LiaConnectdevelop } from 'react-icons/lia'
+import { MdDesignServices } from 'react-icons/md'
+import { GrAnalytics } from 'react-icons/gr'
+
+const serviceData = [
+    {
+        title:"Logo Design",
+        iconName: <AiOutlineAntDesign className='self-center' />,
+    },
+    {
+        title:"Web Design",
+        iconName: <MdDesignServices className='self-center' />,
+    },
+    {
+        title:"Development",
+        iconName: <LiaConnectdevelop className='self-center' />,
+    },
+    {
+        title:"Data Science",
+        iconName: <GrAnalytics className='self-center' />,
+    },
+]
 
 export const Ourservices = () => {
   return (
@@ -26,21 +49,13 @@ export const Ourservices = () => {
             </div>
 
             <div className='flex lg:flex-row flex-wrap gap-x-8 gap-y-8 self-center justify-center '>
-                <div className='w-[300px] lg:w-[22%]'>
-                    <Service title={"Logo Design"}/>
-                </div>
-                
-                <div className='w-[300px] lg:w-[22%]'>
-                    <Service title={"Web Design"}/>
-                </div>
-
-                <div className='w-[300px] lg:w-[22%]'>
-                    <Service title={"Development"}/>
-                </div>
-
-                <div className='w-[300px] lg:w-[22%]'>
-                    <Service title={"Data Science"}/>
-                </div>
+                {
+                    serviceData.map((item)=>(
+                        <div key={item.index} className='w-[300px] lg:w-[22%]'>
+                            <Service title={item.title} iconName={item.iconName}/>
+                        </div>
+                    ))
+                }
             </div>
 
             <div className='w-fit self-center'>

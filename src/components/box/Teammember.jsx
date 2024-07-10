@@ -2,7 +2,7 @@ import React from 'react'
 import { SlSocialInstagram } from 'react-icons/sl'
 import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter } from 'react-icons/ti'
 
-export const Teammember = () => {
+export const Teammember = ({name,designation}) => {
   return (
     <div >
         <div className='h-fit w-[250px] lg:w-fit  relative flex justify-center content-center group'>
@@ -16,8 +16,8 @@ export const Teammember = () => {
             '>
                 <div className='mx-auto my-auto h-fit w-fit gap-y-4 flex flex-col'>
                     <div >
-                        <p className='font-bold text-lg'>John Doey</p>
-                        <p className='font-semibold'>Co-Founder</p>
+                        <p className='font-bold text-lg'>{name}</p>
+                        <p className='font-semibold'>{designation}</p>
                     </div>
                     <div className='flex bg-white w-fit mx-auto rounded-full px-4 py-2 text-black'>
                         <TiSocialFacebook className='h-8 w-8 px-1 border-r rounded-l-full'/>
