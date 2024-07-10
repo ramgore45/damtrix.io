@@ -8,7 +8,7 @@ import { PiMouseLeftClickDuotone } from 'react-icons/pi'
 export const Creativethinking = () => {
   return (
     <div >
-        <div className='flex flex-wrap justify-between px-10 sm:px-24 content-center my-20 pb-24 relative'>
+        <div className='flex flex-wrap justify-between px-10 sm:px-24 content-center my-20 pb-24 relative overflow-hidden'>
             {/* left side */}
             <div className='lg:w-[50%] flex flex-col gap-y-10 self-center w-full'>
                 <Mainheading Maintext={"Creative Thinking"}/>
