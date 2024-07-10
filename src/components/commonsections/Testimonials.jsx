@@ -40,8 +40,8 @@ export const Testimonials = () => {
             </div>
                 
             {/* Second slider section */}
-            <div className='p-10 sm:px-24 flex pb-14 sm:pb-28 w-[90vw] sm:w-[95vw]  sm:justify-center p-auto mx-auto'>
-                <Carousel className='md:max-w-[800px] w-full self-start sm:justify-center left-0'
+            <div className=' sm:px-24 flex pb-14 sm:pb-28 w-[90vw] sm:w-[95vw]  sm:justify-center p-auto mx-auto'>
+                <Carousel className='md:max-w-[800px] sm:w-full w-fit self-start sm:justify-center left-0 overflow-hidden'
                     autoPlay={true} infiniteLoop={true} stopOnHover={true}> 
                         {
                             testimonyData.map((item)=>(
